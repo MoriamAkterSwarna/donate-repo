@@ -35,3 +35,59 @@ body {
     border-radius: 5px;
 
 }
+
+.donate-today {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.donate-today h2 {
+    font-size: 45px;
+}
+
+.donate-today p {
+    font-size: 20px;
+    color: #707070;
+}
+
+.amount {
+    display: flex;
+    padding: 50px 350px;
+}
+
+h3 {
+
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #707070;
+    width: 135px;
+    height: 100px;
+    margin-right: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#highlight-amount {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 3px solid #FF5959;
+}
+
+.taka {
+    margin-bottom: 50px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom: 3px solid #DADADA;
+    width: 760px;
+    text-align: center;
+    font-size: 20px;
+    color: #B3B3B3;
+}
+
+.taka:focus {
+    outline: none;
+}
