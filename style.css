@@ -42,7 +42,7 @@ body {
     margin-bottom: 150px;
 }
 
-.donate-today h2 {
+h2 {
     font-size: 45px;
 }
 
@@ -86,8 +86,61 @@ h3 {
     text-align: center;
     font-size: 20px;
     color: #B3B3B3;
+    padding: 5px;
 }
 
 .taka:focus {
     outline: none;
+}
+
+.donate-plan {
+    text-align: center;
+}
+
+.donate-plan p {
+    font-size: 20px;
+    color: #707070;
+}
+
+.donate-today p {
+    font-size: 20px;
+    color: #707070;
+}
+
+.donate-category {
+    display: flex;
+    margin: 50px 10%;
+    text-align: left;
+
+
+}
+
+.categories {
+    width: 360px;
+    height: 280px;
+    padding: 50px 20px;
+    margin: 13px;
+    border-radius: 5px;
+}
+
+.one {
+    background-color: #f0fbfc;
+}
+
+.two {
+    background-color: #f5e5e5;
+}
+
+.three {
+    background-color: #FFF4D6;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.categories p {
+    font-size: 18px;
+    color: #707070;
 }
