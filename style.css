@@ -1,0 +1,37 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+
+.donate-header {
+    background-image: url(images/donation13.jpg);
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 170px 250px;
+}
+
+.donate h1 {
+    font-size: 65px;
+
+}
+
+.donate p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.donate-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
+
+}
