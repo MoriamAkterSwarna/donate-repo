@@ -5,6 +5,8 @@ body {
 
 .donate-header {
     background-image: url(images/donation13.jpg);
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: darken;
     height: 100%;
     background-position: top;
     background-repeat: no-repeat;
