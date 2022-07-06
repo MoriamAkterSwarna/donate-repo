@@ -1,7 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-
 }
 
 .donate-header {
@@ -33,7 +32,7 @@ body {
     padding: 12px 20px;
     background-color: #FF5959;
     border-radius: 5px;
-
+    justify-content: center;
 }
 
 .donate-today {
@@ -111,8 +110,6 @@ h3 {
     display: flex;
     margin: 50px 10%;
     text-align: left;
-
-
 }
 
 .categories {
@@ -143,4 +140,107 @@ h4 {
 .categories p {
     font-size: 18px;
     color: #707070;
+}
+
+.transaction {
+    display: flex;
+    margin: 0 5%;
+    text-align: center;
+}
+
+.icon {
+    width: 50px;
+    justify-content: center;
+
+}
+
+.one-third {
+    width: 30%;
+    margin: 100px auto;
+    border-left: 5px solid #FF5959;
+    padding-left: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.help-link {
+    text-decoration-style: solid;
+    text-decoration-color: #FF5959;
+    text-decoration-thickness: 5px;
+    width: 300px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.updates {
+    text-align: center;
+}
+
+.updates p {
+    font-size: 18px;
+    color: #707070;
+}
+
+
+
+.update-form {
+    height: 200px;
+    width: 800px;
+    background-color: #FFF4D6;
+    margin: 50px auto;
+}
+
+.update-input {
+
+    height: 50px;
+    border-style: none;
+    margin-top: 75px;
+    float: left;
+}
+
+.email {
+    width: 275px;
+    background-color: #D9D9D9;
+    color: #a59d9d;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 10px;
+    margin-left: 200px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.subscribe-btn {
+    width: 120px;
+    background-color: #FF5959;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 0 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+footer {
+    margin-top: 100px;
+    height: 180px;
+    background-color: black;
+    text-align: center;
+
+}
+
+footer h2 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    padding-top: 50px;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-size: 14px;
 }
